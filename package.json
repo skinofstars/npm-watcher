@@ -6,7 +6,7 @@
     "watch-all": "npm run watch-js & npm run watch-sass & npm run watch-assets",
     "browserify": "browserify src/js/app.js | uglifyjs > dist/js/bundle.js",
     "build": "npm run browserify",
-    "start": "npm run watch-all & nodemon server.js"
+    "start": "npm run watch-all & nodemon main.js"
   },
   "devDependencies": {
     "babelify": "^5.0.4",
